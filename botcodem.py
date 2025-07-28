@@ -8,7 +8,7 @@ import PyPDF2
 import os
 
 # Token del bot de Telegram
-TOKEN = "7647905801:AAGQdzCys6pcPTdgLXSbuSS5gG8O8ZBqhY4"
+TOKEN = "PONE ACA EL TOKEN DE TU BOT DE TELEGRAM"
 
 def process_input(input_str):
     """Procesa el input del usuario y devuelve tipo (DNI/CUIT) y número limpio."""
