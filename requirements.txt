@@ -1,0 +1,10 @@
+# Python deps for both bots
+# Pin to stable majors that match your code (python-telegram-bot v20+ API)
+python-telegram-bot>=20,<22
+playwright>=1.40
+requests>=2.31
+beautifulsoup4>=4.12
+pillow>=10.0
+PyPDF2>=3.0
+# Optional: faster event loop on Linux (safe no-op if not used in code)
+uvloop>=0.19; platform_system=="Linux"
